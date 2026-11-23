@@ -1,10 +1,19 @@
 <h1 align="center">mikail-tommard</h1>
 
-<p align="center"><strong>Go backend · Developer tools · Local AI</strong></p>
+<p align="center"><strong>Go-бэкенд · Инструменты для разработчиков · Локальный ИИ</strong></p>
 
 <p align="center">
-  Пишу бэкенд-сервисы на Go и создаю локальные инструменты для Codex.<br>
-  Работаю с HTTP API, хранилищами данных и автоматизацией рабочего стола.
+  <img alt="Go" src="https://img.shields.io/badge/Go-086B80?style=flat-square&amp;logo=go&amp;logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-245AA6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
+  <img alt="C" src="https://img.shields.io/badge/C-404D82?style=flat-square&amp;logo=c&amp;logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-26394A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-315A7D?style=flat-square&amp;logo=postgresql&amp;logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-205C8C?style=flat-square&amp;logo=docker&amp;logoColor=white">
+</p>
+
+<p align="center">
+  Пишу HTTP-сервисы на Go и делаю инструменты для работы с Codex.<br>
+  В моих проектах есть локальные MCP-серверы, автоматизация рабочего стола и API с PostgreSQL.
 </p>
 
 ## Инструменты для Codex
@@ -13,12 +22,12 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mikail-tommard/ai-workspace">Forma · AI Workspace</a></h3>
-      <p>Локальное рабочее пространство для Codex. Задачи, графики, изображения и документы собраны в интерфейсе на React, который обслуживает Go-сервер.</p>
+      <p>Локальное рабочее пространство, где Codex может выводить задачи, графики, изображения и документы на интерактивную панель. Go-сервер обслуживает интерфейс на React, данные хранятся в SQLite.</p>
       <sub>Go · React · TypeScript · SQLite · MCP</sub>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mikail-tommard/codex-vision">Codex Vision</a></h3>
-      <p>Локальный MCP-сервер для работы с рабочим столом. Позволяет агенту наблюдать за окнами и взаимодействовать с интерфейсом через разрешённые действия.</p>
+      <p>Локальный MCP-сервер для работы с приложениями через интерфейс. Агент может делать снимки экрана, находить окна и выполнять разрешённые действия мышью и клавиатурой.</p>
       <sub>Go · MCP · Accessibility · системные API</sub>
     </td>
   </tr>
@@ -28,16 +37,12 @@
 
 | Проект | Что внутри |
 | --- | --- |
-| [task-flow](https://github.com/mikail-tommard/task-flow) | Учебный сервис задач с HTTP API, PostgreSQL и RabbitMQ для асинхронных уведомлений. |
-| [sabr](https://github.com/mikail-tommard/sabr) | Full-stack MVP с интерфейсом на Vue, Go-бэкендом и модулем аутентификации на PostgreSQL. |
+| [task-flow](https://github.com/mikail-tommard/task-flow) | Учебный сервис задач с HTTP API. PostgreSQL хранит данные, RabbitMQ используется для асинхронных уведомлений. |
+| [sabr](https://github.com/mikail-tommard/sabr) | Full-stack MVP на Vue и Go. В бэкенде реализованы регистрация, вход и обновление токенов с хранением данных в PostgreSQL. |
 | [ecom](https://github.com/mikail-tommard/ecom) | Бэкенд интернет-магазина с регистрацией, авторизацией и миграциями PostgreSQL для товаров и заказов. |
-| [stor-edge](https://github.com/mikail-tommard/stor-edge) | Файловый HTTP-сервис на Go с локальным хранением файлов и метаданными в памяти. |
-| [link-checker](https://github.com/mikail-tommard/2025-12-10-links) | Сервис пакетной проверки доступности ссылок с PDF-отчётами. |
-| [email](https://github.com/mikail-tommard/email) | Go-сервис для подтверждения email. |
+| [link-checker](https://github.com/mikail-tommard/2025-12-10-links) | Go-сервис, который принимает список ссылок, проверяет их доступность и формирует PDF-отчёт. |
 | [decimal](https://github.com/mikail-tommard/decimal) | Реализация десятичной арифметики на C. |
 
 ## Технические заметки
 
-В [notes](https://github.com/mikail-tommard/notes) собираю конспекты по Go, Git, Docker, SQL и Nginx.
-
-[Все публичные репозитории →](https://github.com/mikail-tommard?tab=repositories)
+В [notes](https://github.com/mikail-tommard/notes) собираю примеры и конспекты по Go, Git, Docker, SQL и Nginx.
