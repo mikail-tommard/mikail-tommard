@@ -17,6 +17,12 @@
   В моих проектах есть локальные MCP-серверы, автоматизация рабочего стола и API с PostgreSQL.
 </p>
 
+<p align="center">
+  <a href="https://github.com/mikail-tommard/task-flow">
+    <img src="backend-request.gif" alt="Пример запроса в task-flow. Go API получает GET /task/42, читает задачу из PostgreSQL и возвращает JSON." width="900">
+  </a>
+</p>
+
 ## Инструменты для Codex
 
 <table>
@@ -33,12 +39,6 @@
     </td>
   </tr>
 </table>
-
-<p align="center">
-  <a href="https://github.com/mikail-tommard/codex-vision">
-    <img src="codex-vision-flow.gif" alt="Как работает Codex Vision. Агент получает состояние окна, выполняет разрешённое действие через MCP и проверяет новое состояние." width="900">
-  </a>
-</p>
 
 ## Бэкенд и системные проекты
 
