@@ -34,6 +34,12 @@
   </tr>
 </table>
 
+<p align="center">
+  <a href="https://github.com/mikail-tommard/codex-vision">
+    <img src="codex-vision-flow.gif" alt="Как работает Codex Vision. Агент получает состояние окна, выполняет разрешённое действие через MCP и проверяет новое состояние." width="900">
+  </a>
+</p>
+
 ## Бэкенд и системные проекты
 
 | Проект | Что внутри |
