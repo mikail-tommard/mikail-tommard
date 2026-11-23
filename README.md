@@ -4,10 +4,11 @@
 
 <p align="center">
   <img alt="Go" src="https://img.shields.io/badge/Go-086B80?style=flat-square&amp;logo=go&amp;logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-245AA6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
   <img alt="C" src="https://img.shields.io/badge/C-404D82?style=flat-square&amp;logo=c&amp;logoColor=white">
-  <img alt="React" src="https://img.shields.io/badge/React-26394A?style=flat-square&amp;logo=react&amp;logoColor=61DAFB">
   <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-315A7D?style=flat-square&amp;logo=postgresql&amp;logoColor=white">
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-A52A37?style=flat-square&amp;logo=redis&amp;logoColor=white">
+  <img alt="Apache Kafka" src="https://img.shields.io/badge/Apache%20Kafka-2B3440?style=flat-square&amp;logo=apachekafka&amp;logoColor=white">
+  <img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-A74815?style=flat-square&amp;logo=rabbitmq&amp;logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-205C8C?style=flat-square&amp;logo=docker&amp;logoColor=white">
 </p>
 
@@ -22,8 +23,8 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mikail-tommard/ai-workspace">Forma · AI Workspace</a></h3>
-      <p>Локальное рабочее пространство, где Codex может выводить задачи, графики, изображения и документы на интерактивную панель. Go-сервер обслуживает интерфейс на React, данные хранятся в SQLite.</p>
-      <sub>Go · React · TypeScript · SQLite · MCP</sub>
+      <p>Локальное рабочее пространство, где Codex может выводить задачи, графики, изображения и документы на интерактивную панель. Go-сервер обслуживает панель и хранит данные в SQLite.</p>
+      <sub>Go · SQLite · MCP</sub>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mikail-tommard/codex-vision">Codex Vision</a></h3>
