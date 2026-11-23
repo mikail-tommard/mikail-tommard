@@ -18,9 +18,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/mikail-tommard/task-flow">
-    <img src="backend-request.gif" alt="Пример запроса в task-flow. Go API получает GET /task/42, читает задачу из PostgreSQL и возвращает JSON." width="900">
-  </a>
+  <a href="https://github.com/egonelbre/gophers/blob/master/vector/projects/network.svg">
+    <img src="https://raw.githubusercontent.com/egonelbre/gophers/master/vector/projects/network.svg" alt="Go Gopher подключает сетевой кабель" width="150">
+  </a><br>
+  <sub>Иллюстрация <a href="https://github.com/egonelbre/gophers">Egon Elbre</a> · дизайн Go Gopher — Renée French</sub>
 </p>
 
 ## Инструменты для Codex
